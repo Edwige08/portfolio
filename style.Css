@@ -4,38 +4,31 @@
     --secondColor: #f2b4b9;
     --firthColor: #fef8f9;
 }
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Lobster Two", sans-serif;
     background-color: var(--firthColor);
 }
-
 h1 {
     margin: 0px;
     padding-top: 50px;
     font-size: 3em;
 }
-
 h2 {
     text-align: center;
     margin: 30px;
     font-size: 2em;
 }
-
 .pink {
     color: var(--main);
 }
-
 .underlined {
     text-decoration-line: underline;
 }
-
 .bold {
     font-weight: bold;
 }
-
 canvas {
     display: block;
     vertical-align: bottom;
@@ -58,16 +51,13 @@ canvas {
     margin-top: 5px;
     margin-left: 5px;
 }
-
 #stats {
     border-radius: 3px 3px 0 0;
     overflow: hidden;
 }
-
 .count-particles {
     border-radius: 0 0 3px 3px;
 }
-
 #particles-js {
     z-index: -1;
     width: 100%;
@@ -80,7 +70,6 @@ canvas {
 #title {
     text-align: center;
 }
-
 #title>p {
     font-size: 1.4em;
     margin: 10px;
@@ -92,17 +81,14 @@ canvas {
     flex-direction: column;
     align-items: center;
 }
-
 #img-about-me {
     width: 250px;
     border-radius: 50%;
     margin-bottom: 10px;
-
     @media screen and (max-width: 600px) {
         width: 30vw;
     }
 }
-
 #about-me>p {
     text-align: center;
     max-width: 700px;
@@ -118,7 +104,6 @@ canvas {
     background-color: var(--firthColor);
     padding: 50px 0;
 }
-
 .technologies-img {
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
@@ -126,12 +111,10 @@ canvas {
     justify-items: center;
     box-shadow: 3px 3px 3px 3px grey;
     border-radius: 10px;
-
     @media screen and (max-width: 460px) {
         grid-template-columns: 40vw 40vw;
     }
 }
-
 .technologies-img2 {
     display: grid;
     grid-template-columns: 25vw 25vw 25vw;
@@ -139,37 +122,30 @@ canvas {
     justify-items: center;
     box-shadow: 3px 3px 3px 3px grey;
     border-radius: 10px;
-
     @media screen and (max-width: 460px) {
         grid-template-columns: 40vw 40vw;
     }
 }
-
 .divTechno p {
     margin-top: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .techno {
     height: 100px;
     margin: 20px 20px 0 20px;
-
     @media screen and (max-width: 600px) {
         height: 60px;
         ;
     }
 }
-
 .transparent {
     filter: opacity(50%);
 }
-
 .smaller {
     height: 70px;
     @media screen and (max-width: 600px) {
         height: 50px;
-        ;
     }
 }
 
@@ -182,9 +158,7 @@ canvas {
     background-color: var(--firthColor);
     padding: 50px 0;
 }
-
-#projects,
-#projects2 {
+#projects, #projects2 {
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-evenly;
@@ -192,9 +166,7 @@ canvas {
     width: 100%;
     margin: 0 auto;
 }
-
-.img-project,
-.img-project2 {
+.img-project, .img-project2 {
     width: 25vw;
     margin: 10px;
     border-radius: 10px;
@@ -203,48 +175,39 @@ canvas {
         width: 30vw;
     }
 }
-
 .img-project:hover {
     transform: translate(2px, 2px);
     transition: .1s ease-in-out;
     box-shadow: 2px 2px 2px grey;
 }
-
 .eachProject {
     display: grid;
     justify-items: center;
 }
-
 .eachProject a {
     margin: 0 auto;
     padding: 0;
     width: fit-content;
 }
-
 .eachProject>p {
     text-align: center;
     width: 90%;
     margin: 10px auto;
     font-size: 1.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     @media screen and (max-width: 460px) {
         font-size: 0.9em;
     }
 }
-
 .logo_github {
     width: 50px;
 }
-
 .logo_github:hover {
     transform: translate(2px, 2px);
     transition: .1s ease-in-out;
 }
-
 .middle-size {
     font-size: 1.4em;
-
 }
 
 /* *** *** *** *** PARTIE FOOTER *** *** *** *** */
