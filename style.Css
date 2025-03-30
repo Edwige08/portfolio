@@ -31,7 +31,7 @@ h2 {
 }
 canvas {
     display: block;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 /* ---- particles.js container ---- */
@@ -47,7 +47,7 @@ canvas {
 /* ---- stats.js ---- */
 #stats,
 .count-particles {
-    -webkit-user-select: none;
+    /* -webkit-user-select: none; */
     margin-top: 5px;
     margin-left: 5px;
 }
